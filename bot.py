@@ -51,4 +51,4 @@ def get_embed_message(warning):
     embed = discord.Embed(title="Language Suggester", description=warning + "\n\nThis bot exists simply to ask you to reflect on your word choices, and will never moderate or punish people for activating it" + "\n\nIf you have an issue with the bot, a change for a words description or additional words for the bot please message @Nyght", color=new_colour)
     return embed
 
-bot.run("NjQyNzAxOTI2Mjc3ODQwOTE2.XcgEbg.MMXbNMZMxK-Yyk5wEuFa_1yJg2s")
+bot.run("NjQyNzAxOTI2Mjc3ODQwOTE2.XclG7w.hkvl5DvYYii2t-AlqNq2MyLXQlw")
