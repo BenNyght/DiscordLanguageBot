@@ -29,5 +29,5 @@ def get_warning(text):
     for key in WARNINGS:
         warning = re.search(key, text, re.IGNORECASE)
         if warning:
-            return 'Friendly Reminder: {0} is {1}'.format(warning.group(0), WARNINGS[key])
+            return 'Friendly Reminder: ***{0}*** is {1}'.format(warning.group(0), WARNINGS[key])
     return None
